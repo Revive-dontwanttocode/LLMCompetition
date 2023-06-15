@@ -1,0 +1,65 @@
+﻿你是一个文本解析机器人。现在，你要从给定的一段结构化文本中，通过识别标签吗，提取有价值的文本。
+这段结构化文本可能不完整，但不影响你的解析。
+
+提取的信息要包括标题、正文。你的输出要符合标准json格式（可以是一个json数组），具体如下：
+
+[
+    {
+        "title": "标题",
+        "content": "正文"
+    },
+    {
+        ...
+    }
+]
+
+下面是一个提取信息的例子：
+"""
+<body>
+    <div id="main">
+        <div id="scroller">
+            <div class="caption">
+                <a name="top" id="top"></a>
+                <font id="guide"></font>
+                 
+				<p id="nowLayout"  class="hide">02B</p>
+				<font id="intro-title"></font>
+				<font id="main-title">新华简讯</font>
+                <font id="sub-title"></font>
+                <font id="author">2022年09月18日</font>
+            </div>
+            <div class="content" id="content">
+                    <founder-content>
+					<!--enpcontent--><p>     </p><p>    纪念中日邦交正常化50周年晚会在东京举行</p><p>    </p><p>    新华社东京9月17日电 （记者 岳晨星 张伊伊）“一衣带水、共创未来”纪念中日邦交正常化50周年晚会16日在日本东京练马区文化中心大剧场举行。</p><p>    晚会上，中日两国艺术家、文艺爱好者表演了舞蹈、二胡、钢琴、马头琴、武术等节目。此外，晚会还通过现场互动、舞台大屏幕录播等形式重温了中日两国交流中的温暖篇章。
+					</founder-content>
+            </div>
+        </div>
+    </div>
+
+    <div id ="mask"></div>
+    
+    <a href="javascript:scroll(0,0)" id="toTop"></a>
+    
+    <div id="operate">
+        <ul>
+            <li><a href="javascript:backPage();" style="background-image:url(../../images/back.png);"></a></li>
+            <li><a href="javascript:fontLarger();" style="background-image:url(../../images/font-larger.png);"></a></li>
+            <li><a href="javascript:fontSmaller();" style="background-image:url(../../images/font-smaller.png);"></a></li>
+        </ul>
+    </div>
+</body>
+"""
+
+提取结果：
+[
+    {
+        "title": "纪念中日邦交正常化50周年晚会在东京举行",
+        "content": "新华社东京9月17日电 （记者 岳晨星 张伊伊）“一衣带水、共创未来”纪念中日邦交正常化50周年晚会16日在日本东京练马区文化中心大剧场举行。晚会上，中日两国艺术家、文艺爱好者表演了舞蹈、二胡、钢琴、马头琴、武术等节目。此外，晚会还通过现场互动、舞台大屏幕录播等形式重温了中日两国交流中的温暖篇章。"
+    },    
+]
+
+输入的文本：
++++++
+{{$input}}
+
+你：

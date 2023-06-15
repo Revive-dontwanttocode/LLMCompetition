@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CProgram_0020Files_0020_0028x86_0029_005CMySQL_005CMySQL_0020Connector_0020NET_00208_002E0_002E33_005CMySql_002EData_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a9913640_002Da9d6_002D4ecb_002Dbffc_002Dd751d6fb6e75/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Run" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.HeaderClassifyAnalyserTest.Run&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.InformationReportDataAnalyserTest.ReportDataAnalyseTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.InformationReportDataAnalyserTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.ReportSummaryAnalyserTest.Run&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.EmotionWordsAnalyserTest.EmotionWordsCountTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.FundPortionSearchTest.TestGetFundPortion&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.NewsSummaryAnalyserTest.NewsSummaryTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.HtmlContextAnalyserTest.Test&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.ExtractCommentAnalyserTest.TestCommentExtractFunction&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;xUnit::9E87048F-E439-47BB-93E9-EF449BE00F48::net7.0::AnalysisLibrary.UnitTest.Analysers.ExtractCommentAnalyserTest&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;9E87048F-E439-47BB-93E9-EF449BE00F48/d:Analysers/f:FundPortionSearchTest.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
